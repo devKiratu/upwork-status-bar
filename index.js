@@ -9,6 +9,8 @@ function handleSubmit(e) {
   e.preventDefault();
 
   const value = parseInt(input.value);
+  if (isNaN(value)) return;
+
   display.innerHTML = `${value}%`;
 
   fillBar(value);
