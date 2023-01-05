@@ -35,3 +35,8 @@ input {
   justify-content: flex-start;
   align-items: center;
 }
+
+.note p {
+  width: max-content;
+  margin: 100px auto;
+}
