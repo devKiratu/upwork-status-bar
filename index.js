@@ -19,6 +19,7 @@ function handleSubmit(e) {
 
 function fillBar(input) {
   let color = "green";
+
   if (input > 50 && input <= 79) {
     color = "orange";
   } else if (input >= 80) {

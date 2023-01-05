@@ -22,15 +22,26 @@ input {
   display: inline-block;
   height: 10px;
   border-radius: 5px;
-  background-color: #bdbdbd;
+  transition: width 0.75s ease-in-out;
 }
 
 .display {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 .bar-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: #f3f3f3;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.chart {
   display: flex;
   justify-content: flex-start;
   align-items: center;
